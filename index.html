@@ -1,0 +1,316 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Partha Sarathi Roy info</title>
+    <link rel="shortcut icon" href="Assest/icon.png" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <div class="logo">
+                    <span class="p-logo">PAR</span>THA<span class="p-logo">.</span>
+
+                </div>
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fas fa-times" onclick="closemenu()"></i>
+                </ul>
+                <i class="fas fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <p>APP Developer</p>
+                <h1>Hi, I'm <span class="span1"><span id="element"></span></span> <br> From Bangladesh</h1>
+
+            </div>
+        </div>
+    </div>
+    <!-- --------------------header sectio closs------------- -->
+    <!-- ---------------------------about section start--------- -->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="Assest/user.jpeg">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About me</h1>
+                    <p>My name is Partha Sarathi Roy, and I am a Computer Science Engineering (CSE) student and app
+                        developer. With a passion for technology and a love for coding, I am constantly exploring the
+                        world of computer science and its applications.
+
+                        As a CSE student, I am dedicated to gaining a deep understanding of various programming
+                        languages, algorithms, and data structures. I enjoy tackling complex problems and finding
+                        innovative solutions through logical thinking and creative coding techniques. I am always eager
+                        to learn about the latest advancements in the field of computer science, as it keeps me
+                        motivated and helps me stay at the forefront of technological developments.
+
+                    </p>
+
+                    <div class="tab-title">
+                        <p class="tab-link active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-link" onclick="opentab('Experience')">Experience</p>
+                        <p class="tab-link" onclick="opentab('Education')">Education</p>
+                    </div>
+                    <!-- ......................................skills -->
+
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>Programming Languages</span><br>
+                                Proficient in Java for Android app development.</li>
+                            <li><span>Android Development</span> <br>
+                                Experienced in using Android Studio and the Android SDK to build robust and feature-rich
+                                applications.</li>
+                            <li><span>UI/UX Design</span> <br>
+                                Skilled in creating visually appealing and user-friendly interfaces following Material
+                                Design guidelines.</li>
+                            <li><span>Backend Integration</span> <br>
+                                Familiar with integrating APIs and web services to retrieve and process data within
+                                Android apps.</li>
+                            <li><span>Database Management</span> <br>
+                                Proficient in working with SQLite and other database management systems for data storage
+                                and retrieval.</li>
+                            <li><span>Testing and Debugging:</span> <br>
+                                Skilled in testing and debugging Android apps to ensure optimal performance and
+                                functionality.</li>
+                        </ul>
+                    </div>
+                    <!-- ........................................Experience -->
+                    <div class="tab-contents" id="Experience">
+                        <ul>
+                            <li><span>App Developer at XYZ Company</span><br>
+                                &starf;Developed and maintained several Android apps using Java and Android Studio. <br>
+                                &starf;Collaborated with a cross-functional team of designers and backend developers to
+                                deliver
+                                high-quality apps. <br>
+                                &starf;Implemented engaging user interfaces, leveraging Material Design principles to
+                                enhance
+                                the user experience. <br>
+                                &starf;Integrated APIs and backend services to fetch and display dynamic content within
+                                the
+                                apps. <br>
+                                &starf;Conducted thorough testing and debugging to ensure app stability and performance.
+                                <br>
+                                &starf;Worked closely with product managers to understand requirements and deliver
+                                features on
+                                time.
+                            </li>
+                            <li><span>Personal Project: "Task Manager App"</span> <br>
+                                &starf;Designed and developed a task management app using Java and Android Studio. <br>
+                                &starf;Implemented features like creating tasks, setting reminders, and organizing tasks
+                                into
+                                categories. <br>
+                                &starf;Incorporated intuitive UI elements and animations to enhance usability. <br>
+                                &starf;Utilized SQLite database to store and retrieve task data. <br>
+                                &starf;Conducted extensive testing and gathered user feedback to improve the app's
+                                functionality and user experience. <br>
+                                &starf;Published the app on the Google Play Store, attracting positive user reviews and
+                                a
+                                growing user base.</li>
+                            <li><span>Freelance Project: "E-commerce App"</span> <br>
+                                &starf;Collaborated with a client to develop an e-commerce app for their online store.
+                                <br>
+                                &starf;Implemented a secure user authentication system for customer login and
+                                registration. <br>
+                                &starf; Integrated payment gateways and implemented shopping cart functionality. <br>
+                                &starf; Worked closely with the client to understand their requirements and provided
+                                regular
+                                &starf updates on the app's progress. <br>
+                                &starf;Ensured the app followed best practices for performance, security, and
+                                scalability.
+                            </li>
+                        </ul>
+                    </div>
+                    <!-- ''''''''''''''''''''''''''''''''''''''''''''''''''Education..........? -->
+                    <div class="tab-contents" id="Education">
+                        <ul>
+
+                            <li><span>B'Sc in CSE</span>(2021-Preasent) <br>
+                                Government Shahid Akbar Ali Science & Technology College (GSASTC) Affiliated by HSTU
+                            </li>
+                        </ul>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- ...................Servuces...................?/? -->
+
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title">My Services</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-brands fa-app-store-ios"></i>
+                    <h2>SwiftLaunch Apps</h2>
+                    <p>SwiftLaunch Apps specializes in rapid app development, enabling businesses to quickly launch
+                        their mobile applications with efficient turnaround times without compromising quality.</p>
+                    <a href="">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-crop"></i>
+                    <h2>PixelPerfect Apps</h2>
+                    <p>PixelPerfect Apps is committed to creating visually stunning and pixel-perfect mobile apps,
+                        combining sleek design with seamless functionality.</p>
+                    <a href="">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>AppMasterminds</h2>
+                    <p>AppMasterminds is a team of seasoned app developers who possess a deep understanding of user
+                        behavior and design apps that captivate and engage users.</p>
+                    <a href="">Learn more</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- ..........................Portfolio.............. -->
+
+
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title">My Work</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="Assest/work-1.png">
+                    <div class="layer">
+                        <h3>Social Media App</h3>
+                        <p>The primary purpose of the app is to connect people and facilitate social interactions in a
+                            virtual environment. It allows users to create profiles, connect with friends, share
+                            updates, photos, and videos, and engage with others through likes, comments, and messages.
+                        </p>
+                        <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="Assest/work-2.png">
+                    <div class="layer">
+                        <h3>Music App</h3>
+                        <p>The primary purpose of the app is to provide users with a seamless music listening
+                            experience. It allows users to discover, stream, and organize their favorite music tracks,
+                            albums, and playlists.</p>
+                        <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="Assest/work-3.png">
+                    <div class="layer">
+                        <h3>Online Shoping App</h3>
+                        <p>The primary purpose of the app is to provide users with a convenient platform for online
+                            shopping. It allows users to browse and purchase a wide range of products from various
+                            categories.</p>
+                        <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                    </div>
+                </div>
+            </div>
+            <a href="#" class="btn">See more</a>
+        </div>
+    </div>
+
+    <!-- ...............................Contact........... -->
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Me</h1>
+                    <p><i class="fa-solid fa-paper-plane"></i> service@partha.click</p>
+                    <p><i class="fa-solid fa-phone"></i> 01309436833</p>
+                    <div class="social-icons">
+                        <a href="https://www.facebook.com/parthar409/"><i class="fa-brands fa-facebook"></i></a>
+                        <a href="https://github.com/parthar409"><i class="fa-brands fa-github"></i></a>
+                        <a href="https://www.instagram.com/partha_r0y/"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="https://www.linkedin.com/in/parthar409/"><i class="fa-brands fa-linkedin"></i></a>
+                    </div>
+                    <a href="Assest/my-cv.pdf" download class="btn btn2">Downlod CV</a>
+                </div>
+                <div class="contact-right">
+                    <form name="submit-to-google-sheet">
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="email" name="Email" placeholder="Your Email" required>
+                        <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                        <button type="submit" class="btn btn2">Submit</button>
+                    </form>
+                    <span id="msg"></span>
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <div class="copyright">
+        <p>copyright &copy; Partha <i class="fa-solid fa-heart"></i>| www.partha.click
+        </p>
+
+    </div>
+
+    <!-- .....................icon.....script.....? -->
+    <script src="https://kit.fontawesome.com/7096724b5a.js" crossorigin="anonymous"></script>
+    <!-- ........................................................? -->
+
+    <script>
+        var tablinks = document.getElementsByClassName("tab-link");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+        function opentab(tabname) {
+            for (tablink of tablinks) {
+                tablink.classList.remove("active-link")
+            }
+            for (tabcontent of tabcontents) {
+                tabcontent.classList.remove("active-tab")
+            }
+            event.currentTarget.classList.add("active-link")
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+
+    </script>
+    <!-- ..............................................................................// -->
+    <script>
+        var sidemeu = document.getElementById("sidemenu");
+        function openmenu() {
+            sidemeu.style.right = "0";
+        }
+        function closemenu() {
+            sidemeu.style.right = "-200px";
+        }
+    </script>
+    <!-- .................................? -->
+    <script>
+        const scriptURL = 'https://script.google.com/macros/s/AKfycbwYioFZ1woyUUf6zUM7o4mYo88wdMEKrhXsLMMrHA43syC4474Vgomw8ESqc85LxffJ/exec'
+        const form = document.forms['submit-to-google-sheet']
+        const msg = document.getElementById("msg")
+
+        form.addEventListener('submit', e => {
+            e.preventDefault()
+            fetch(scriptURL, { method: 'POST', body: new FormData(form) })
+                .then(response => {
+                    msg.innerHTML = "Message Sent Successfully"
+                    setTimeout(function () {
+                        msg.innerHTML = ""
+                    }, 5000)
+                    form.reset()
+                })
+                .catch(error => console.error('Error!', error.message))
+        })
+    </script>
+
+
+    <!-- ...............................................? -->
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+    <script>
+        var typed = new Typed('#element', {
+            strings: ['Partha Sarathi Roy..........'],
+            typeSpeed: 80,
+        });
+    </script>
+</body>
+
+</html>
